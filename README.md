@@ -11,8 +11,7 @@
 
 <p align="center">
   Carbon-quantum-dot luminescent solar concentrator research for transparent solar windows,<br>
-  building-integrated photovoltaics, sustainable buildings, and student engineering in Oman.<br>
-  <smal>This is the website for AETHER.(https://gaurishmetha-2011.github.io/AETHER/)</smal>
+  building-integrated photovoltaics, sustainable buildings, and student engineering in Oman.
 </p>
 ---
 
