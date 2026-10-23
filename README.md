@@ -13,7 +13,7 @@
   Carbon-quantum-dot luminescent solar concentrator research for transparent solar windows,<br>
   building-integrated photovoltaics, sustainable buildings, and student engineering in Oman.
 </p>
-
+[This is the website for AETHER.](https://gaurishmetha-2011.github.io/AETHER/)
 ---
 
 AETHER is an early-stage **transparent solar-window research project** investigating whether architectural glass can convert part of the sunlight falling on it into useful electricity while retaining useful daylight transmission. The proposed system combines food- or agricultural-waste-derived **carbon quantum dots (CQDs)**, a transparent luminescent interlayer, optical guidance through glass, and narrow photovoltaic (PV) cells around the perimeter.
