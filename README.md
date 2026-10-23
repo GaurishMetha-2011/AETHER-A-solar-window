@@ -1,4 +1,3 @@
-# AETHER
 <p align="center">
   <img src="Aether%20Logo.png" alt="AETHER project logo: a faceted crystalline letter A" width="180">
 </p>
