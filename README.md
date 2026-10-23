@@ -1,3 +1,4 @@
+[This is the website for AETHER.](https://gaurishmetha-2011.github.io/AETHER/)
 <p align="center">
   <img src="Aether%20Logo.png" alt="AETHER project logo: a faceted crystalline letter A" width="180">
 </p>
@@ -13,14 +14,17 @@
   Carbon-quantum-dot luminescent solar concentrator research for transparent solar windows,<br>
   building-integrated photovoltaics, sustainable buildings, and student engineering in Oman.
 </p>
+
 ---
 
 AETHER is an early-stage **transparent solar-window research project** investigating whether architectural glass can convert part of the sunlight falling on it into useful electricity while retaining useful daylight transmission. The proposed system combines food- or agricultural-waste-derived **carbon quantum dots (CQDs)**, a transparent luminescent interlayer, optical guidance through glass, and narrow photovoltaic (PV) cells around the perimeter.
 
 Unlike an ordinary opaque solar panel, AETHER is intended to keep the PV material largely outside the main viewing area. Its operating concept belongs to the established field of **luminescent solar concentrators (LSCs)**: absorb selected incident photons, re-emit light through photoluminescence, guide a fraction of that light to the edges, and convert it into electricity there. Every stage loses energy; the design does not create energy from nothing, and it is not expected automatically to outperform conventional PV modules.
 
-> **Project status — research concept with a built, non-working presentation prototype; reviewed 23 October 2026.**  
-> The project architecture, presentations, research direction, and a framed, non-working prototype are documented. The supplied records do **not** contain measured CQD spectra, measured visible-light transmittance or haze, calibrated edge-optical measurements, or electrical output from a complete AETHER device. **A working electricity-generating AETHER window has not yet been demonstrated.** The approximately 690 nm emission, specialised edge-cell performance, and 20–25-year service life discussed below are design targets or research ambitions—not measured results.
+> **Project status: research concept with a built, non-working presentation prototype; reviewed 23 October 2026.**  
+> The project architecture, presentations, research direction, and a framed, non-working prototype are documented. The supplied records do **not** contain measured CQD spectra, measured visible-light transmittance or haze, calibrated edge-optical measurements, or electrical output from a complete AETHER device. **A working electricity-generating AETHER window has not yet been demonstrated.** The approximately 690 nm emission, specialised edge-cell performance, and 20-25-year service life discussed below are design targets or research goals, not measured results.
+
+**In simple terms:** AETHER would place tiny light-emitting particles in a clear window layer. They would absorb some sunlight and emit light again. The window would guide part of that light to solar cells in the frame, which would turn it into electricity. The current prototype does not yet perform this complete process.
 
 ## Table of Contents
 
@@ -54,66 +58,61 @@ Unlike an ordinary opaque solar panel, AETHER is intended to keep the PV materia
 
 ## The Vision Behind AETHER
 
-Buildings already require surfaces that admit daylight, provide views, and protect interior spaces. AETHER asks whether some of those surfaces could eventually perform a second function: **distributed renewable-electricity generation without making every energy-generating surface look like a conventional rooftop panel**.
+Buildings already need windows for daylight, views, and protection from weather. AETHER asks whether some of those windows could also make electricity in the future, without making every energy-producing surface look like a rooftop solar panel.
 
-The long-term vision is a glazing element in which a transparent optical layer harvests a selected part of the incident spectrum while perimeter electronics handle conversion and, potentially, local low-power loads. If future evidence supports the concept, related architectures could be investigated for homes, schools, offices, commercial buildings, public facilities, and selected glazed infrastructure.
+The long-term idea is a clear window layer that collects part of the incoming light and sends some of it to solar cells in the frame. If research shows that this works well, related designs could be studied for homes, schools, offices, shops, and public buildings.
 
-That vision must preserve more than electricity output. A useful solar window must also be judged by:
+A useful solar window must do more than produce electricity. It must also provide enough daylight, a clear view, acceptable colour, low haze, and a design people would want to use. It must be safe, durable, affordable, and practical to install and maintain. Its environmental impact must include the window materials, electronics, replacement, and recycling.
 
-- **Window function:** daylight, view, colour, clarity, haze, glare, and occupant comfort.
-- **Architectural integration:** dimensions, framing, wiring, safety, maintenance, and appearance.
-- **Energy performance:** measured output under realistic illumination, orientation, shading, and temperature.
-- **Durability:** stability of the luminophore, host, interfaces, seals, PV cells, and electronics.
-- **Lifecycle performance:** material inputs, fabrication energy, repair, replacement, and end of life.
-- **System value:** whether the electricity and additional functions justify added cost and complexity.
-
-AETHER is therefore a **complementary building-integrated-photovoltaics research direction**, not a proposal to replace all conventional solar panels.
+AETHER is a possible addition to building-integrated solar research. It is not a proposal to replace every conventional solar panel.
 
 ## My Project Story
 
 My interest in engineering became hands-on when I was in Grade 6, after my father gave me a basic electronics kit. Experimenting with electronics made me curious about how hardware, software, and energy systems could be combined to solve practical problems. AETHER developed from that same habit of asking whether an ordinary object could perform an additional useful function.
 
-The immediate idea came from an everyday observation. After seeing an electricity bill and then noticing the large glazed area of a nearby building, I wondered: **what if those windows could help generate electricity?** I recorded the idea and developed it for the Middle East College Sustainability Hackathon under the name **AURS — Advanced Ultraviolet Resonance Sequestrator**. The early concept explored UV-responsive organic materials derived from agricultural waste, luminescent re-emission, internal reflection, and edge-mounted solar cells.
+The immediate idea came from an everyday observation. After seeing an electricity bill and then noticing the large glazed area of a nearby building, I wondered: **what if those windows could help generate electricity?** I recorded the idea and developed it for the Middle East College Sustainability Hackathon under the name **AURS: Advanced Ultraviolet Resonance Sequestrator**. The early concept explored UV-responsive organic materials derived from agricultural waste, luminescent re-emission, internal reflection, and edge-mounted solar cells.
 
 I later presented a developed version at the Indian School Muscat Techathon under the name **AETHER**. I did not receive an award at either event, but the experience was important. It made the gap between an attractive presentation and a demonstrable engineering system much clearer. In particular, I had to confront questions about material degradation, optical losses, prototype construction, electrical measurement, cost, and whether the design could survive as an architectural product. My notes also record an early attempt to demonstrate a vibration-assisted window-cleaning idea; its power source stopped working, and the available description is not sufficient to establish how it was powered. It is not claimed here as a working AETHER feature or as evidence of solar electricity generation.
 
-My first material direction was to use organic luminescent pigments associated with food or agricultural waste. As I investigated the concept further, I became concerned that some organic luminophores could photodegrade under prolonged ultraviolet exposure. This was a **design review and research concern**, not a lifetime measurement performed on an AETHER sample. It led me to reconsider the material platform rather than defend the original idea simply because it was mine.
+My first material direction was to use organic luminescent pigments associated with food or agricultural waste. As I investigated the concept further, I became concerned that some organic light-emitting materials could break down under long ultraviolet (UV) exposure. This was a **design review and research concern**, not a lifetime measurement performed on an AETHER sample. It led me to reconsider the material platform rather than defend the original idea simply because it was mine.
 
-The next step was a pivot toward **carbon quantum dots**. CQDs attracted my attention because they can be made from carbon-rich precursors, including biomass in published research, and because their optical properties can be investigated within an LSC. This pivot happened after the two earlier hackathon presentations. It did not settle the durability question: CQD photostability and encapsulation must still be tested in the final solid host, and a waste-derived precursor does not automatically make a product sustainable.
+The next step was a pivot toward **carbon quantum dots**. CQDs attracted my attention because they can be made from carbon-rich starting materials, including biomass in published research, and because their optical properties can be investigated within an LSC. This pivot happened after the two earlier hackathon presentations. It did not settle the durability question: CQD resistance to light damage and encapsulation must still be tested in the final solid host, and a waste-derived precursor does not automatically make a product sustainable.
 
-I then began treating AETHER as a coupled optical, materials, and electrical system rather than only a window concept. My current design research includes a proposed deep-red emission target around 690 nm, investigation of compatible edge-PV options, transparent-host dispersion and encapsulation, and the possibility of measuring or using small amounts of electricity locally in the window frame. These are **design contributions and hypotheses**, not experimentally established improvements.
+I then began treating AETHER as a coupled optical, materials, and electrical system rather than only a window concept. My current design research includes a proposed deep-red emission target around 690 nm, investigation of compatible edge-PV options, transparent-host dispersion and encapsulation, and the possibility of measuring or using small amounts of electricity locally in the window frame. These are **design contributions and ideas to test**, not experimentally established improvements.
 
 The name AETHER references the historical idea of an unseen medium associated with light. I gave it a project-specific meaning: investigating how energy in sunlight that people normally cannot see might be converted into a useful, visible outcome. The tagline is **“Invisible energy → visible impact.”**
 
-The most important lesson so far is that a convincing project must be willing to measure its own weaknesses. I still need to establish whether a suitable CQD material can be produced reproducibly, whether it remains clear and luminescent in a host, whether useful light reaches the edges, and whether the complete system delivers measurable power to a load. My next goal is therefore not to claim a finished product. It is to build and test a defensible proof of the complete optical-to-electrical chain, learn from negative results, and improve the design from evidence.
+I have researched and tried related ideas through early testing as part of my learning. I do not treat those early trials as proof that the complete AETHER window works.
+
+The most important lesson so far is that a convincing project must be willing to measure its own weaknesses. I still need to establish whether a suitable CQD material can be produced with repeatable results, whether it remains clear and luminescent in a host, whether useful light reaches the edges, and whether the complete system delivers measurable power to a load. My next goal is therefore not to claim a finished product. It is to build and test a carefully measured proof of the complete optical-to-electrical chain, learn from negative results, and improve the design from evidence.
 
 ## The Problem
 
-Buildings account for around 30% of global energy demand, making the relationship between building surfaces, energy use, and clean-energy integration an important research area [1]. At the same time, windows are not empty energy collectors: they already provide daylight, views, ventilation in some configurations, weather protection, and architectural value.
+Buildings account for around 30% of global energy demand [1]. This makes building surfaces an important place to study energy savings and clean-energy production. Windows already provide daylight, views, weather protection, and sometimes ventilation. The challenge is to add energy production without damaging these functions.
 
-Conventional opaque PV modules can be mounted on rooftops and can also be integrated into some façades. What they generally cannot do is serve as **see-through vision glass**. Transparent and semi-transparent PV technologies investigate this additional integration route, but they introduce coupled optical and electrical constraints [2].
+Conventional opaque PV panels work well on rooftops and can also be used on some façades. However, they cannot normally serve as clear vision glass. Transparent and semi-transparent solar technologies study this opportunity, but they face linked optical and electrical trade-offs [2].
 
-The specific opportunity explored by AETHER is therefore not “windows receive sunlight, so all of that energy is being wasted.” The real engineering question is more demanding:
+The main research question is:
 
-> **Can a glazing system harvest a useful fraction of incident optical energy while preserving acceptable window performance, and can it do so with sufficient durability, safety, and lifecycle value?**
+> **Can a window collect a useful part of the light falling on it, turn some of that energy into electricity, and still work well as a window?**
 
-### Why the problem is difficult
+This is difficult for several reasons:
 
-1. **The incident spectrum is finite and wavelength-dependent.** Only photons within the absorber's useful absorption range can drive the proposed photoluminescent pathway. The spectrum reaching an actual vertical window also depends on location, orientation, atmosphere, external shading, and any upstream glazing or coating.
-2. **Transparency and absorption compete.** Increasing absorber loading may increase captured photons but can also reduce visible-light transmittance, alter colour, or increase haze.
-3. **Absorption is not electricity.** The absorbed energy must survive photoluminescence, optical transport, edge coupling, PV conversion, and electrical conditioning.
-4. **Architectural geometry is unfavourable for simple assumptions.** Windows may be vertical, partially shaded, hot, dusty, or viewed from oblique angles. Laboratory values at normal incidence do not automatically describe annual performance.
-5. **UV is not a free, uniform energy reservoir.** Standard glass and coatings may already attenuate parts of the UV spectrum. The proposed design must measure the irradiance actually available at the luminescent layer rather than assume that all transmitted or reflected UV can be recovered efficiently.
-6. **A window must remain a window.** Colour neutrality, haze, clarity, glare, thermal behaviour, safety, and maintainability can be as important as electrical output.
-7. **The correct benchmark is not one-dimensional.** AETHER should eventually be compared with ordinary glazing, ordinary glazing plus separate conventional PV, semi-transparent PV, and other LSC designs using explicit optical, electrical, economic, and lifecycle boundaries.
+1. **Not all sunlight can be used.** The material absorbs only some wavelengths. The light reaching a real window also changes with direction, weather, shading, dust, and any glass or coating in front of the active layer.
+2. **Transparency and absorption pull in opposite directions.** Adding more light-absorbing material may collect more light, but it can also reduce daylight, change colour, or make the window cloudy.
+3. **Absorbed light is not yet electricity.** Energy is lost during light emission, transport through the window, collection at the edges, PV conversion, and electrical conditioning.
+4. **A window must remain useful.** Daylight, colour, clarity, haze, glare, heat, safety, and cleaning all matter.
+5. **UV is not a free energy supply.** Glass and coatings may already block some UV. AETHER must measure the light that actually reaches its active layer instead of assuming that all UV can be collected efficiently.
+6. **Real buildings are not simple laboratory tests.** Vertical windows, partial shade, high temperatures, and changing sun angles can reduce performance.
+7. **Fair comparisons are essential.** AETHER must eventually be compared with normal glazing, normal glazing plus separate PV, semi-transparent PV, and other LSC designs.
 
-This is why AETHER is framed as an investigation, not as a guaranteed solution to building-energy demand.
+AETHER therefore studies a difficult engineering question. It does not claim that windows can solve building-energy demand by themselves.
 
 ## Mission and Objectives
 
 ### Mission
 
-**To investigate whether waste-derived carbon quantum dots and luminescent solar-concentrator architecture can enable a transparent or semi-transparent window to deliver measurable electrical output while preserving useful glazing functions—and to document both positive and negative evidence honestly.**
+**To study whether waste-derived carbon quantum dots and a luminescent solar-concentrator design can produce measurable electricity while keeping a window useful, and to record both positive and negative evidence honestly.**
 
 ### Work completed or documented
 
@@ -138,9 +137,9 @@ These items document concept development and communication; they do not constitu
 - Build an instrumented small-scale proof of the complete optical-to-electrical chain.
 - Develop safe, repeatable measurement records that another researcher could reproduce.
 
-### Future objectives, contingent on earlier evidence
+### Future objectives that depend on earlier evidence
 
-- Quantify visible-light transmittance, haze, colour, edge optical power, PV current–voltage behaviour, and load power.
+- Quantify visible-light transmittance, haze, colour, edge optical power, PV current-voltage behaviour, and load power.
 - Evaluate UV, thermal, humidity, dust, and combined environmental ageing appropriate to the intended installation.
 - Compare performance with relevant transparent-PV and LSC alternatives.
 - Assess locally available feedstocks in Oman subject to consistency, safety, and lifecycle analysis.
@@ -149,7 +148,7 @@ These items document concept development and communication; they do not constitu
 
 ## Why Oman?
 
-AETHER is a student-led project developed in Muscat, Oman. Its local relevance comes from the intersection of solar-energy research, sustainable buildings, materials innovation, and the development of research capabilities—not from any official adoption or endorsement.
+AETHER is a student-led project developed in Muscat, Oman. Its local relevance comes from the intersection of solar-energy research, sustainable buildings, materials innovation, and the development of research capabilities, not from any official adoption or endorsement.
 
 Oman Vision 2040 lists **Education, Learning, Scientific Research and National Capabilities** and **Environment and Natural Resources** among its national priorities. Its official environment materials also refer to renewable natural resources for energy production and to development of the waste sector [3]. AETHER relates to those themes as an independent student research project:
 
@@ -162,23 +161,15 @@ Oman's solar resource, documented through Global Solar Atlas country data, makes
 
 ### Possible future relevance in Oman
 
-If controlled testing eventually establishes useful performance, suitable variants could be investigated for:
+If testing later shows useful performance, AETHER could be studied for schools, universities, offices, public buildings, commercial projects, and low-power building sensors. These are possible research applications, not deployments. Heat, UV, dust, humidity where relevant, cleaning, maintenance, and glazing safety must all be considered.
 
-- school and university buildings that also serve as education and demonstration sites;
-- offices and public buildings with appropriately designed glazing;
-- commercial developments where façade integration has architectural value;
-- selected low-power environmental monitoring or smart-building functions; and
-- research into locally appropriate, durable glazing materials.
-
-These are **potential applications**, not deployments. Heat, intense UV exposure, dust deposition, humidity where relevant, maintenance access, and glazing safety are design constraints rather than afterthoughts.
-
-### Local feedstock research
+### Local feedstock (starting-material) research
 
 Locally available agricultural or food residues could be screened as possible CQD precursors only after establishing:
 
 1. a consistent and legally available feedstock stream;
 2. composition and batch variability;
-3. the yield and reproducibility of the desired optical material;
+3. the yield and repeatability of the desired optical material;
 4. chemical, solvent, water, and energy requirements;
 5. toxicity, purification, waste handling, and worker safety; and
 6. transport, durability, and end-of-life effects.
@@ -191,17 +182,17 @@ The following is a **project-authored Sustainable Development Goal (SDG) mapping
 
 | SDG | Specific connection to AETHER | Nature of connection |
 |---|---|---|
-| **7 — Affordable and Clean Energy** | Investigates a possible route to distributed renewable electricity from architectural glazing. | **Intended future direct contribution**; no electricity output has yet been validated. |
-| **9 — Industry, Innovation and Infrastructure** | Develops student research, materials–optics–electronics integration, and an experimental methodology. | **Direct research and innovation activity**; infrastructure deployment is future and unproven. |
-| **11 — Sustainable Cities and Communities** | Explores multifunctional glazing that could combine daylighting with local energy generation. | **Intended future contribution**, contingent on technical and architectural feasibility. |
-| **12 — Responsible Consumption and Production** | Investigates waste-derived precursors and emphasises durability, material inputs, and end of life. | **Indirect at present; intended future contribution**; sustainability must be demonstrated by lifecycle evidence. |
-| **13 — Climate Action** | Explores renewable-energy technology that could contribute to lower operational emissions if net benefits are established. | **Indirect and prospective**; no emissions reduction or carbon saving is claimed. |
+| **7: Affordable and Clean Energy** | Investigates a possible route to distributed renewable electricity from architectural glazing. | **Intended future direct contribution**; no electricity output has yet been validated. |
+| **9: Industry, Innovation and Infrastructure** | Develops student research, materials-optics-electronics integration, and an experimental methodology. | **Direct research and innovation activity**; infrastructure deployment is future and unproven. |
+| **11: Sustainable Cities and Communities** | Explores multifunctional glazing that could combine daylighting with local energy generation. | **Intended future contribution**, if technical and architectural testing succeeds. |
+| **12: Responsible Consumption and Production** | Investigates waste-derived precursors and emphasises durability, material inputs, and end of life. | **Indirect at present; intended future contribution**; sustainability must be demonstrated by lifecycle evidence. |
+| **13: Climate Action** | Explores renewable-energy technology that could contribute to lower operational emissions if net benefits are established. | **Indirect and future**; no emissions reduction or carbon saving is claimed. |
 
 AETHER does not claim to solve Oman's energy challenges. Its present contribution is a research question and a documented attempt to develop the skills and evidence needed to answer it.
 
 ## How AETHER Works
 
-AETHER proposes a luminescent solar-concentrator pathway. LSCs and their use with edge-mounted PV cells are established research concepts [6–8]. AETHER's proposed implementation must still be demonstrated stage by stage.
+AETHER proposes a luminescent solar-concentrator pathway. LSCs and their use with edge-mounted PV cells are established research concepts [6-8]. AETHER's proposed implementation must still be demonstrated stage by stage.
 
 ```mermaid
 flowchart LR
@@ -222,29 +213,27 @@ flowchart LR
 
 `Incident sunlight → selective absorption → photoluminescent re-emission → partial waveguiding → edge-PV conversion → measured electrical output`
 
-Side paths at every stage include transmission, reflection, heat, escape-cone emission, scattering, reabsorption, parasitic absorption, optical-coupling loss, PV loss, and electrical loss.
-
 ### Stage-by-stage explanation
 
 | Stage | Function and scientific principle | Main constraints and losses | What must be demonstrated for AETHER |
 |---|---|---|---|
 | **1. Incident light** | Solar irradiance supplies the input optical power. Its spectral distribution and angle determine which photons reach the active layer. | Reflection, upstream glazing absorption, orientation, shading, dust, and spectrum variation. | Calibrated plane-of-window irradiance and, where possible, spectral irradiance at the actual sample. |
 | **2. Optical absorption** | CQDs absorb photons within their absorption bands, promoting energy into excited states. | Incomplete absorption, visible-light attenuation, colour, scattering, and absorption by the host or impurities. | Absorption and transmission spectra relative to blank glass and blank-host controls. |
-| **3. CQD photoluminescence** | Some excited states emit photons, normally at longer wavelength and lower photon energy than the absorbed photons. | Non-unity photoluminescence quantum yield (PLQY), non-radiative decay, Stokes-energy loss, spectral drift, and photodegradation. | Corrected excitation/emission spectra, absolute PLQY in the final host, and repeatability across batches. |
-| **4. Optical propagation and confinement** | A fraction of isotropically emitted light enters guided modes and can travel through a higher-refractive-index waveguide by total internal reflection (TIR). | Escape-cone loss, reabsorption, scattering, host absorption, surface defects, interface loss, and longer path lengths in larger samples. | Calibrated edge spectra and optical power as a function of illumination position and sample geometry. |
+| **3. CQD photoluminescence** | Some excited states emit photons, normally at longer wavelength and lower photon energy than the absorbed photons. | Low photoluminescence quantum yield (PLQY), energy lost as heat instead of light, Stokes-energy loss, changes in the spectrum, and light-driven material damage. | Corrected excitation and emission spectra, absolute PLQY in the final host, and repeatable results across batches. |
+| **4. Optical propagation and confinement** | A fraction of light emitted in all directions enters guided paths and can travel through a higher-refractive-index waveguide by total internal reflection (TIR). | Escape-cone loss, reabsorption, scattering, host absorption, surface defects, interface loss, and longer path lengths in larger samples. | Calibrated edge spectra and optical power as a function of illumination position and sample geometry. |
 | **5. Edge optical collection** | Perimeter PV cells receive part of the guided luminescence through an optical interface. | Edge reflection, poor cell coverage, adhesive or interface absorption, non-uniform illumination, and spectral mismatch. | Optical coupling measurement and comparison of edge-PV response with appropriate controls. |
-| **6. Photovoltaic conversion** | The PV cells absorb suitable photons and convert part of their energy into direct-current (DC) electrical power. | PV quantum efficiency, recombination, voltage losses, fill factor, series/shunt resistance, temperature, and wiring loss. | Full current–voltage (I–V) curves and maximum power to a defined load under stated irradiance and temperature. |
-| **7. Conditioning, storage, or loads** | Optional electronics could measure, regulate, store, or deliver energy to suitable low-power devices. | Conversion overhead, quiescent current, battery losses, self-discharge, safety, and insufficient net energy. | Net energy balance at the load, including all electronics and storage losses. This stage is currently proposed only. |
+| **6. Photovoltaic conversion** | The PV cells absorb suitable photons and convert part of their energy into direct-current (DC) electrical power. | PV quantum efficiency, recombination, voltage losses, fill factor, series/shunt resistance, temperature, and wiring loss. | Full current-voltage (I-V) curves and maximum power to a defined load under stated irradiance and temperature. |
+| **7. Conditioning, storage, or loads** | Optional electronics could measure, regulate, store, or deliver energy to suitable low-power devices. | Conversion overhead, idle power use, battery losses, self-discharge, safety, and insufficient net energy. | Net energy balance at the load, including all electronics and storage losses. This stage is currently proposed only. |
 
 ### Total internal reflection: necessary but not sufficient
 
-For light travelling from a higher-index medium to a lower-index medium, TIR occurs above the critical angle:
+For light travelling from a higher-index material to a lower-index material, total internal reflection can occur above the critical angle:
 
-`θc = sin⁻¹(nout / nin)`, where `nin > nout`.
+`θc = sin⁻¹(nout / nin)`, where `nin > nout`. Here, `n` is the refractive index, which describes how strongly a material bends light.
 
-For an ideal isotropic emitter inside a lossless slab with `nin ≈ 1.5` surrounded by air, the critical angle is approximately 41.8°, and the simple two-face escape-cone model gives an ideal guided fraction of roughly 75%. This is an **illustrative ideal-slab estimate**, not an AETHER measurement. Real interlayers, coatings, emission locations, surface roughness, reabsorption, scattering, and interfaces change the result [6–8].
+In simple terms, some light can bounce inside the window instead of leaving through its faces. Whether this happens depends on the materials, surface quality, coatings, and direction of emission. Some light still escapes through the large faces, which is called escape-cone loss. Reabsorption, scattering, and absorption by the host cause further losses [6-8].
 
-Light can therefore undergo TIR without delivering useful edge power. The complete quantity of interest is the calibrated optical power reaching the PV cells after all transport losses.
+TIR alone does not prove that useful power reaches the edges. The edge light and its power must be measured.
 
 ### The proposed 690 nm emission and its 1.80 eV equivalent
 
@@ -262,16 +251,13 @@ For a **target** wavelength of 690 nm:
 
 This calculation establishes only the energy of a photon with that vacuum wavelength. It does **not** establish that:
 
-- an AETHER CQD sample emits at 690 nm;
-- 690 nm is the measured peak of a broad or excitation-dependent spectrum;
-- the material has a high PLQY or low reabsorption;
-- the emitted photon flux or optical power is useful;
-- a PV cell with a nominally similar bandgap will operate efficiently; or
-- the complete window will have a high solar-to-electrical efficiency.
+- an AETHER CQD sample actually emits at 690 nm;
+- the material has high PLQY, low reabsorption, or useful emitted optical power; or
+- a solar cell with a similar bandgap, or the complete window, will have high efficiency.
 
-A PV cell must be evaluated against the **entire measured emission spectrum**, its own absorption and external quantum efficiency, optical thickness, operating voltage, and fill factor. Setting a bandgap equal to a rounded photon energy does not eliminate thermalisation, reflection, incomplete absorption, recombination, resistive loss, or the voltage deficit. Indeed, 1.79687 eV rounds to 1.80 eV; the unrounded values and actual band edges still matter.
+A PV cell must be evaluated against the **entire measured emission spectrum**, its own absorption and how efficiently it turns incoming photons into electrical current, optical thickness, operating voltage, and fill factor. Setting a bandgap equal to a rounded photon energy does not eliminate thermalisation, reflection, incomplete absorption, recombination, resistive loss, or the voltage deficit. Indeed, 1.79687 eV rounds to 1.80 eV; the unrounded values and actual band edges still matter.
 
-Silicon is not excluded from consideration simply because it has a fixed bandgap. It can absorb 690 nm photons and should serve as a practical baseline. Specialised III–V or perovskite cells may be investigated later, but they introduce their own cost, fabrication, stability, safety, and integration questions. No AETHER edge-cell efficiency has been established.
+A semiconductor's bandgap is a material property that helps determine which photons it can absorb and how much voltage it can produce. Silicon is not excluded from consideration simply because it has a fixed bandgap. It can absorb 690 nm photons and should serve as a practical baseline. Specialised III-V or perovskite cells may be investigated later, but they introduce their own cost, fabrication, stability, safety, and integration questions. No AETHER edge-cell efficiency has been established.
 
 ### Photon energy, optical power, electrical power, and energy yield are different
 
@@ -286,11 +272,11 @@ A bright fluorescence photograph shows neither optical power nor electrical powe
 
 ## Scientific Context and Prior Art
 
-AETHER should be understood within—not outside—the existing scientific literature.
+AETHER should be understood within the existing scientific literature, not outside it.
 
 | Established field or prior art | What already exists | Relationship to AETHER |
 |---|---|---|
-| **Luminescent solar concentrators** | LSC research has investigated luminescent waveguides and edge-mounted PV cells for decades [6–8]. | AETHER uses this established operating architecture; the broad concept is not claimed as original. |
+| **Luminescent solar concentrators** | LSC research has investigated luminescent waveguides and edge-mounted PV cells for decades [6-8]. | AETHER uses this established operating architecture; the broad concept is not claimed as original. |
 | **Transparent and semi-transparent photovoltaics** | Multiple wavelength-selective and partially transmitting PV approaches have been studied, with established figures of merit and integration trade-offs [2]. | AETHER is one alternative within the wider solar-window research landscape and must be compared fairly with other approaches. |
 | **Carbon-dot LSCs** | Experimental CQD-based laminated LSCs and related optical studies have already been published [10,11]. | Investigating CQDs in an LSC is not, by itself, a novel AETHER invention. |
 | **CQD synthesis and optical materials** | CQD synthesis, functionalisation, photoluminescence, and applications are a substantial research field [12]. | AETHER must characterise its own material rather than assume literature properties transfer to a new formulation. |
@@ -318,57 +304,53 @@ The envisioned full system differs from the current framed, non-working prototyp
 | **Power management and storage** | Optional charging, regulation, and local energy storage for suitable low-power loads. | **Proposed future subsystem.** Component selection, protection, net energy balance, and safety require engineering and testing. |
 | **External load or sensing function** | Demonstrate useful delivered energy rather than voltage alone. | **Proposed.** No load has been demonstrated as powered by the complete AETHER optical-to-electrical pathway. |
 
-No exact concentrations, synthesis temperatures, dimensions, suppliers, cell part numbers, or circuit values are inferred in this document. Where those details become necessary for reproducibility, they should be added only after verification and after the project lead decides what is suitable for public disclosure.
+No exact concentrations, synthesis temperatures, dimensions, suppliers, cell part numbers, or circuit values are inferred in this document. Where those details become necessary for repeatability, they should be added only after verification and after the project lead decides what is suitable for public disclosure.
 
 ## The Role of Carbon Quantum Dots
 
-### Why CQDs are being investigated
+### Why study CQDs?
 
-CQDs are a family of nanoscale carbon-based materials whose optical behaviour depends on factors including precursor chemistry, formation process, size and structure, surface groups, defects, purification, and local environment [12]. In an LSC, their intended functions are to absorb selected incident light and re-emit photons that can be transported to edge PV cells. CQD-based LSCs are already an active research field [10,11].
+Carbon quantum dots are very small carbon-based particles. Their light absorption and emission depend on their starting material, production method, structure, surface chemistry, purification, and surroundings [12]. In an LSC, CQDs are intended to absorb some incoming light and emit light that can travel toward edge-mounted solar cells. CQD-based LSCs already exist in published research, so this general approach is not new to AETHER [10,11].
 
-For AETHER, CQDs are attractive as a **research candidate** because they offer a possible connection between carbon-rich biomass and luminescent materials. They are not attractive merely because the words “carbon,” “quantum,” or “waste-derived” sound sustainable. Their value must be established through optical performance, durability, safety, and lifecycle evidence.
+AETHER is studying CQDs because carbon-rich biomass may offer one way to make them. That possible link to waste material does not prove that the final product will be sustainable, safe, or effective.
 
-### Synthesis and feedstock questions
+### Production and material questions
 
-Published biomass-derived carbon-dot routes use different precursors and processing methods. Translating that literature into AETHER requires answers to the following:
+A useful CQD material must be repeatable from batch to batch. The project must answer these questions:
 
-- Can the selected feedstock produce a reproducible optical material rather than a variable mixture?
-- Which components of the feedstock contribute to the desired absorption and emission?
-- What purification is required to remove molecular fluorophores, unreacted material, and by-products?
-- Are the measured optical properties actually associated with the purified CQDs rather than impurities?
-- Can batch-to-batch variation be controlled at the scale required for a uniform window?
-- Are any solvents, dopants, surface treatments, or residues compatible with safety and lifecycle goals?
+- Which food or agricultural residue is a suitable starting material?
+- Can the process make the same optical material each time?
+- What purification is needed to remove unused material and unwanted by-products?
+- Do the measured optical properties come from the purified CQDs or from impurities?
+- Can the material be made evenly enough for a clear window layer?
+- Are the chemicals, solvents, waste, and energy used in production acceptable?
 
-No AETHER feedstock or process has yet passed these checks. Detailed process development belongs in an appropriately equipped and supervised laboratory.
+Detailed production work should take place in a suitable laboratory with qualified supervision. No AETHER feedstock or production process has yet passed these checks.
 
-### Optical properties that must be measured
+### Optical properties to measure
 
-1. **Absorption spectrum:** establishes which incident wavelengths can be harvested; transmission alone may not separate absorption from reflection and scattering.
-2. **Excitation spectrum:** identifies which excitation wavelengths produce the relevant emission.
-3. **Emission spectrum:** establishes the actual peak, width, shape, and excitation dependence. A 690 nm target is not a substitute for this measurement.
-4. **Photoluminescence quantum yield:** `PLQY = emitted photons / absorbed photons`, ideally measured absolutely with an integrating sphere under stated conditions.
-5. **Stokes shift:** the separation between a defined absorption feature and the emission peak. With broad CQD spectra, the reporting convention matters. In energy terms, `ΔE = Eabs − Eem`.
-6. **Spectral stability:** checks peak and intensity changes over time, excitation exposure, temperature, and ageing.
-7. **Absorption–emission overlap:** indicates potential reabsorption. A large Stokes shift can reduce overlap, but broad absorption tails can still cause losses [11].
-8. **Solid-state behaviour:** PLQY and emission in solution cannot be assumed to remain unchanged after dispersion and curing in the final host.
+1. **Absorption spectrum:** shows which wavelengths the material absorbs.
+2. **Excitation spectrum:** shows which input wavelengths produce the desired emission.
+3. **Emission spectrum:** shows the emitted wavelengths, peak, width, and changes with excitation. The 690 nm value is a target until this is measured.
+4. **Photoluminescence quantum yield (PLQY):** the fraction of absorbed photons that the material emits again. A higher value can help, but it does not guarantee a high window efficiency.
+5. **Stokes shift:** the difference between the absorbed and emitted light, reported using a clear wavelength or energy convention. It affects reabsorption and energy loss.
+6. **Spectral stability:** checks whether the emission changes with time, light exposure, temperature, or ageing.
+7. **Absorption-emission overlap:** shows how likely the material is to absorb its own emitted light again.
+8. **Behaviour in the solid host:** results from CQDs in liquid cannot simply be copied to CQDs in a cured window layer.
 
-### Dispersion, transparency, and reabsorption
+### Mixing, clarity, and reabsorption
 
-CQDs must be distributed without harmful aggregation. Aggregation or incompatible surface chemistry can change emission, reduce PLQY, and scatter visible light. Higher loading can increase absorption but may also increase haze, colour, reabsorption, and brittleness or other host changes.
+CQDs must spread evenly through the host. Clumps or unsuitable surface chemistry can reduce emission and scatter visible light. More CQDs can increase absorption, but they can also increase haze, colour, and reabsorption.
 
-Reabsorption occurs when an emitted photon is absorbed again before escaping or reaching an edge. Each additional absorption–emission cycle creates further opportunities for non-radiative loss and escape-cone loss. Optical path length therefore matters: a design that works in a small coupon may perform differently when scaled to a larger pane [8,11].
+Reabsorption means that emitted light is absorbed again before it can escape or reach an edge. Each repeat absorption and emission step creates another chance to lose energy. Longer light paths can make this worse, so a small sample may not behave like a full-size window [8,11].
 
-### Durability is formulation-specific
+### Durability and environmental impact
 
-It would be incorrect to claim that CQDs automatically last 20–25 years, or that all organic luminophores fail quickly while all CQDs remain stable. The relevant system is the **CQD + host + interface + encapsulation + exposure environment**. Oxygen, moisture, UV dose, heat, thermal cycling, and mechanical stress can affect different parts of that system.
+CQDs do not automatically last for 20-25 years. The lifetime depends on the complete system: CQDs, host, interfaces, encapsulation, and exposure to oxygen, moisture, UV, heat, and movement. The 20-25-year figure is a goal, not a test result.
 
-AETHER's 20–25-year figure is a service-life ambition only. Accelerated testing must be linked carefully to real exposure, and accelerated results must not be converted directly into years without a defensible ageing model.
+The environmental assessment must include feedstock collection, washing, solvents, purification, energy use, production yield, waste, safety, transport, host production, PV materials, and disposal. Research on carbon-dot sustainability shows why these steps matter [13].
 
-### Waste-derived does not automatically mean environmentally benign
-
-A complete assessment must include precursor collection, washing, chemical conversion, solvents, purification, energy use, process yield, consumables, by-products, toxicity, transport, host production, PV materials, and disposal. Reviews of carbon-dot sustainability specifically identify solvent use, energy demand, material efficiency, purification, safety, and waste management as important issues [13].
-
-Accordingly, AETHER makes no claim of non-toxicity, carbon neutrality, waste-diversion benefit, or lifecycle superiority at this stage.
+AETHER therefore makes no current claim of non-toxicity, carbon neutrality, waste-diversion benefits, or lifecycle superiority.
 
 ## Technical Innovations and Design Contributions
 
@@ -378,10 +360,10 @@ The following entries document the project lead's design decisions without prese
 
 - **Problem addressed:** The initial material direction raised concerns about prolonged UV exposure and architectural durability.
 - **Proposed approach:** Replaced the initial organic-pigment research direction with investigation of CQDs derived from carbon-rich food or agricultural residues.
-- **Scientific rationale:** CQDs can exhibit useful photoluminescence and have already been investigated in LSCs; their surface chemistry and host environment provide design variables [10–12].
+- **Scientific rationale:** CQDs can exhibit useful photoluminescence and have already been investigated in LSCs; their surface chemistry and host environment provide design variables [10-12].
 - **Expected benefit:** A potentially more durable and tunable luminescent layer, if suitable solid-state optical properties and ageing behaviour are demonstrated.
 - **Current status:** **Proposed research direction; design pivot documented.**
-- **Evidence needed:** Reproducible synthesis, purification, structural and optical characterisation, solid-host PLQY, and comparative ageing against the original approach.
+- **Evidence needed:** Repeatable synthesis, purification, structural and optical characterisation, solid-host PLQY, and comparative ageing against the original approach.
 - **Limitations:** The durability concern with the first route was not measured on an AETHER pigment sample, and CQD longevity is not guaranteed. Novelty is not claimed for CQD-LSCs generally.
 
 ### 2. Embedded CQD-host interlayer with protective encapsulation
@@ -398,17 +380,17 @@ The following entries document the project lead's design decisions without prese
 
 - **Problem addressed:** Edge-PV conversion depends on the wavelength and power of the light actually delivered to the cells.
 - **Proposed approach:** Investigate a deep-red emission target around 690 nm and evaluate PV candidates against the measured spectrum rather than selecting cells independently of the luminophore.
-- **Scientific rationale:** Spectral matching affects absorption and external quantum efficiency; reduced absorption–emission overlap may also help if the full spectra support it.
+- **Scientific rationale:** Spectral matching affects absorption and external quantum efficiency; reduced absorption-emission overlap may also help if the full spectra support it.
 - **Expected benefit:** Better use of edge-delivered photons and a rational basis for comparing silicon with specialised PV options.
 - **Current status:** **Proposed target.** No measured AETHER emission peak or selected edge cell exists in the supplied evidence.
-- **Evidence needed:** Corrected emission spectra, optical power at the edge, PV external quantum efficiency, and full I–V measurements under monochromatic and solar-relevant excitation.
+- **Evidence needed:** Corrected emission spectra, optical power at the edge, the efficiency with which the PV cell turns incoming photons into electrical current, and full I-V measurements under monochromatic and solar-relevant excitation.
 - **Limitations:** The 690 nm value does not prove low reabsorption, high PLQY, or high efficiency. Exact formulation and device configuration remain open, and silicon must not be ruled out without measurements.
 
 ### 4. Perimeter-PV framing that preserves a central viewing aperture
 
 - **Problem addressed:** Covering the entire glazing area with opaque PV would conflict with the window's view and daylight functions.
 - **Proposed approach:** Keep PV strips around the perimeter and use the central transparent area for optical collection.
-- **Scientific rationale:** This is the established LSC strategy of separating the large optical collection area from the smaller PV conversion area [6–8].
+- **Scientific rationale:** This is the established LSC strategy of separating the large optical collection area from the smaller PV conversion area [6-8].
 - **Expected benefit:** PV components could remain largely outside the main viewing area and within a frame.
 - **Current status:** **Non-working presentation prototype Built; functional edge-PV system Proposed.**
 - **Evidence needed:** Documented cell geometry, calibrated edge illumination, complete optical-to-electrical measurements, and visible-aperture/transmittance measurements.
@@ -421,7 +403,7 @@ The following entries document the project lead's design decisions without prese
 - **Scientific rationale:** Matching a load to measured energy availability can make a small source useful; local operation may reduce dependence on remote electronics.
 - **Expected benefit:** A possible autonomous window-level demonstrator and a clear way to measure net useful energy.
 - **Current status:** **Proposed electrical architecture.** No assembled or powered AETHER system is documented.
-- **Evidence needed:** Circuit and safety review, quiescent-power budget, round-trip storage efficiency, load profiles, and multi-day net-energy measurements.
+- **Evidence needed:** Circuit and safety review, idle-power budget, round-trip storage efficiency, load profiles, and multi-day net-energy measurements.
 - **Limitations:** Electronics and batteries consume or store energy imperfectly and can outweigh a very small source. Detailed circuit values and any unpublished implementation choices are intentionally not reconstructed here.
 
 ## Prototype and Current Development Stage
@@ -436,13 +418,11 @@ The repository contains photographs of the framed, green-tinted, non-working pro
 
 *Project photographs supplied in the repository. They are evidence of a non-working prototype, not evidence of CQD composition, photoluminescence, waveguiding, PV conversion, or electricity generation.*
 
-The images alone do not establish the central sheet's material, the presence or absence of CQDs, any hidden component, the optical spectrum, the existence of functional perimeter PV cells, or successful performance. No such hidden functionality is inferred in this README.
-
 ### Status definitions
 
 - **Proposed:** documented as an idea, design, target, or planned experiment; not yet implemented as stated.
 - **In Progress:** active documented work exists, but the component or research question remains incomplete.
-- **Built:** a physical artifact exists; this label says nothing by itself about functionality.
+- **Built:** a physical object exists; this label says nothing by itself about functionality.
 - **Tested:** a defined measurement has been performed and a usable record is available.
 - **Validated:** controlled evidence, including appropriate comparisons and uncertainty, supports the specific claim.
 
@@ -458,18 +438,18 @@ The images alone do not establish the central sheet's material, the presence or 
 | Optical guidance to edges | **Proposed** | Established LSC principle; no AETHER edge-optical dataset. | Measure calibrated edge spectra and optical power against controls. |
 | Perimeter PV array | **Proposed** | Architectural design; no functional array verified in the supplied evidence. | Couple a documented baseline PV cell and measure its response. |
 | Electrical measurement and storage circuit | **Proposed** | Planned architecture only. | Review the circuit, quantify overheads, and verify with an independent electrical source before optical testing. |
-| Complete light-to-load pathway | **Proposed** | No complete-device measurements supplied. | Measure full I–V behaviour and power to a defined load under calibrated illumination. |
+| Complete light-to-load pathway | **Proposed** | No complete-device measurements supplied. | Measure full I-V behaviour and power to a defined load under calibrated illumination. |
 | Visible-light transmittance, colour, and haze | **Proposed** | Photographs show visible green tint but provide no quantitative measurement. | Measure baseline and modified samples using appropriate optical methods. |
-| Environmental durability and 20–25-year ambition | **Proposed** | Design objective only. | Conduct controlled UV, thermal, humidity, and combined-exposure studies with pre/post measurements. |
+| Environmental durability and 20-25-year goal | **Proposed** | Design objective only. | Conduct controlled UV, thermal, humidity, and combined-exposure studies with pre/post measurements. |
 
 ### Target-versus-result register
 
-| Publicly discussed value or ambition | Correct interpretation | Evidence currently available |
+| Publicly discussed value or goal | Correct interpretation | Evidence currently available |
 |---|---|---|
 | **Approximately 690 nm / 1.80 eV** | Target emission wavelength and its rounded photon-energy equivalent. | Arithmetic verified; no measured AETHER emission peak. |
-| **More than 92% of the main window area “transparent”** | A reported geometric/design ambition to keep the central viewing area free of PV cells, **not** a measured 92% visible-light transmittance. | Reported as a target in the Muscat Daily feature [14]; no VLT dataset. |
-| **More than 35% conversion for specialised edge cells** | An aspirational target for a possible PV component, **not** AETHER system efficiency. | Reported as requiring validation [14]; no selected cell or measurement. |
-| **20–25-year service life** | Long-term durability ambition for a future architectural product. | No ageing data or validated service-life model. |
+| **More than 92% of the main window area “transparent”** | A reported geometric/design goal to keep the central viewing area free of PV cells, **not** a measured 92% visible-light transmittance (VLT). | Reported as a target in the Muscat Daily feature [14]; no VLT dataset. |
+| **More than 35% conversion for specialised edge cells** | A design target for a possible PV component, **not** AETHER system efficiency. | Reported as requiring validation [14]; no selected cell or measurement. |
+| **20-25-year service life** | Long-term durability goal for a future architectural product. | No ageing data or validated service-life model. |
 | **Electricity generation and storage** | Intended complete-system function. | No measured AETHER voltage, current, maximum power, stored energy, or powered load. |
 
 ## Experimental Validation Plan
@@ -482,18 +462,18 @@ Use independently prepared samples where feasible, and assign identifiers before
 
 | Sample ID | Purpose |
 |---|---|
-| **G0 — bare transparent substrate** | Baseline reflection, transmission, haze, and any background edge signal. |
-| **H0 — substrate + blank host/encapsulation without CQDs** | Separates host, resin, adhesive, and scattering effects from CQD effects. |
-| **L1…Ln — substrate + CQD-host variants** | Tests the luminescent design across documented formulations without publicly exposing confidential parameters. |
-| **PV-ref — documented reference PV cell** | Checks instrumentation and provides a baseline conversion response. |
-| **Dark / blocked-beam controls** | Identifies electrical offsets, stray light, phosphor afterglow, and measurement artefacts. |
+| **G0: bare transparent substrate** | Baseline reflection, transmission, haze, and any background edge signal. |
+| **H0: substrate + blank host/encapsulation without CQDs** | Separates host, resin, adhesive, and scattering effects from CQD effects. |
+| **L1…Ln: substrate + CQD-host variants** | Tests the luminescent design across documented formulations without publicly exposing confidential parameters. |
+| **PV-ref: documented reference PV cell** | Checks instrumentation and provides a baseline conversion response. |
+| **Dark / blocked-beam controls** | Identifies electrical offsets, stray light, phosphor afterglow, and false measurement signals. |
 
 Record sample geometry, mass or area where relevant, preparation date, storage history, orientation, and all non-confidential process metadata. Use at least three independently prepared replicates where practical; report variation rather than selecting only the brightest sample.
 
 ### B. Baseline glass and modified-sample optical measurements
 
-- **Equipment categories:** calibrated UV–visible–near-IR spectrophotometer, integrating sphere where required, haze meter or validated equivalent, and colour-measurement capability.
-- **Measurements:** spectral transmittance and reflectance, photopically weighted luminous transmittance, haze, transmitted colour, and visual/clarity inspection under a standard imaging setup.
+- **Equipment categories:** calibrated UV-visible-near-IR spectrophotometer, integrating sphere where required, haze meter or validated equivalent, and colour-measurement capability.
+- **Measurements:** spectral transmittance and reflectance, luminous transmittance weighted to match human eye sensitivity, haze, transmitted colour, and visual/clarity inspection under a standard imaging setup.
 - **Method guidance:** ISO 9050:2026 addresses luminous and solar characteristics of building glazing and introduces provisions for building-integrated photovoltaic glazing [15]. ASTM D1003-21 provides haze and luminous-transmittance procedures for applicable planar transparent plastics [16]; confirm method applicability to the actual glass/composite assembly.
 - **Controls:** G0 and H0 measured under identical geometry and instrument settings.
 - **Interpretation:** determine the optical cost of the host and CQD layer before claiming that the design preserves window function.
@@ -501,14 +481,14 @@ Record sample geometry, mass or area where relevant, preparation date, storage h
 ### C. Absorption, excitation, emission, and PLQY
 
 - Use a spectrally corrected spectrofluorometer and calibrated excitation source.
-- Measure excitation–emission maps where possible, not only one visually convenient excitation wavelength.
+- Measure excitation-emission maps where possible, not only one visually convenient excitation wavelength.
 - Record slit settings, detector response correction, excitation power, integration time, temperature, sample orientation, and background subtraction.
 - Measure absolute PLQY in the final solid host using an integrating sphere and blank-host correction where feasible.
 - Check repeatability across batches and across positions on a sample.
 - Report the full emission spectrum; do not reduce it to the target wavelength.
-- Evaluate absorption–emission overlap and excitation-dependent spectral changes.
+- Evaluate absorption-emission overlap and excitation-dependent spectral changes.
 
-**Decision question:** does the final material exhibit reproducible photoluminescence with sufficient PLQY and acceptable transparency, rather than merely visible fluorescence under a UV torch?
+**Decision question:** does the final material show repeatable photoluminescence with sufficient PLQY and acceptable transparency, rather than merely visible fluorescence under a UV torch?
 
 ### D. Edge-emitted optical power
 
@@ -521,18 +501,18 @@ Record sample geometry, mass or area where relevant, preparation date, storage h
 
 ### E. PV electrical output and load-based measurements
 
-Follow recognised PV I–V measurement principles where applicable [17]. A calibrated solar simulator and reference spectrum can support controlled comparisons; ASTM G173-23 defines reference solar spectral irradiances, and NREL provides AM1.5 spectral data resources [18]. Outdoor measurements require actual plane-of-window irradiance, spectrum where feasible, temperature, orientation, and time records.
+Follow recognised PV I-V measurement principles where applicable [17]. Calibrated means that an instrument has been checked against a known reference. A calibrated solar simulator and reference spectrum can support controlled comparisons; ASTM G173-23 defines reference solar spectral irradiances, and NREL provides AM1.5 spectral data resources [18]. AM1.5 is a standard reference sunlight spectrum used for PV comparisons. Outdoor measurements require actual plane-of-window irradiance, spectrum where feasible, temperature, orientation, and time records.
 
 Measure:
 
-1. **Open-circuit voltage (`Voc`)** for diagnostic purposes—not as proof of useful power.
+1. **Open-circuit voltage (`Voc`)** for diagnostic purposes, not as proof of useful power.
 2. **Short-circuit current (`Isc`)** with suitable instrumentation and safe limits.
-3. **Full I–V curve** using a source-measure unit or appropriately characterised electronic load.
+3. **Full I-V curve** using a source-measure unit or appropriately characterised electronic load.
 4. **Maximum power:** `Pmax = max(V × I)` over the measured curve.
 5. **Fill factor:** `FF = Pmax / (Voc × Isc)` where meaningful.
 6. **Power to a defined resistive or electronic load** over time.
 7. **Energy yield:** integrate delivered power and report Wh or J with the full interval.
-8. **Dark current/offsets and background signals** so that instrument artefacts are not attributed to the window.
+8. **Dark current/offsets and background signals** so that instrument errors or background signals are not mistaken for output from the window.
 
 Compare at minimum:
 
@@ -546,60 +526,32 @@ Report irradiance, spectral condition, cell/sample temperature, aperture area, P
 
 ### F. Repeatability, ageing, and post-ageing measurements
 
-Environmental exposure can alter QD-LSC performance, so durability must be evaluated experimentally rather than inferred from material category [19].
+Environmental exposure can change QD-LSC performance, so durability must be tested rather than assumed [19].
 
-- **UV exposure:** specify source spectrum, irradiance at the sample, cumulative radiant exposure, temperature, and humidity.
-- **Thermal cycling and heat exposure:** record temperature range, ramp, dwell, and sample condition.
-- **Humidity/damp-heat exposure:** evaluate host, seals, corrosion, and optical changes where applicable.
-- **Dust and cleaning studies:** use reproducible deposition and cleaning methods relevant to the installation; inspect abrasion and transmittance changes.
-- **Combined exposures:** investigate interactions after single-stressor screening.
-- **Pre/post measurements:** repeat transmittance, haze, colour, emission, PLQY where feasible, edge power, and I–V behaviour using the same methods.
-- **Real outdoor comparison:** compare laboratory trends with outdoor exposure while logging actual conditions.
+- **UV exposure:** record the source spectrum, irradiance, total exposure, temperature, and humidity.
+- **Heat and thermal cycling:** record temperatures, dwell times, and the number of cycles.
+- **Humidity, dust, and cleaning:** use repeatable conditions and inspect seals, corrosion, abrasion, and transmission changes.
+- **Outdoor exposure:** log real illumination, temperature, weather, orientation, and time.
+- **Before-and-after measurements:** repeat transmission, haze, colour, emission, edge power, and I-V measurements with the same methods.
 
-Do not convert accelerated exposure directly into a 20–25-year lifetime without a validated acceleration model and supporting outdoor evidence.
+Accelerated exposure must not be converted directly into a 20-25-year lifetime without a validated ageing model and outdoor evidence.
 
-### G. Blank results table
+### G. Results table with no measurements yet
 
-`—` means **not yet measured**, not zero.
+`NM` means **not measured**. It does not mean zero.
 
 | Run | Sample | Irradiance and spectrum | Sample/PV temp. | Luminous transmittance | Haze | Emission peak | PLQY | Edge optical power | `Voc` | `Isc` | `Pmax` | Defined-load energy |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R001 | G0 | — | — | — | — | — | — | — | — | — | — | — |
-| R002 | H0 | — | — | — | — | — | — | — | — | — | — | — |
-| R003 | L1 | — | — | — | — | — | — | — | — | — | — | — |
+| R001 | G0 | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM |
+| R002 | H0 | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM |
+| R003 | L1 | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM | NM |
 
-### H. Reusable run-metadata template
+### H. Safety and responsible experimentation
 
-```yaml
-run_id:
-date_and_time:
-operator_and_facility:
-sample_id_and_batch:
-sample_dimensions_mm:
-substrate_and_host_revision:
-illumination_source_and_reference_spectrum:
-plane_of_window_irradiance_W_m2:
-illumination_angle_and_position:
-sample_temperature_C:
-pv_cell_temperature_C:
-optical_instrument_and_calibration:
-electrical_instrument_and_calibration:
-aperture_area_m2:
-pv_active_area_m2:
-control_samples:
-load_or_iv_sweep_settings:
-raw_data_filename:
-uncertainty_and_anomalies:
-operator_notes:
-```
-
-### I. Safety and responsible experimentation
-
-- CQD synthesis, purification, solvents, nanomaterials, and unknown by-products require a documented risk assessment, suitable facilities, qualified supervision, appropriate personal protective equipment (PPE), and compliant waste disposal. Do not assume a food-derived precursor makes the product safe.
-- UV sources can injure eyes and skin. Use suitable shielding, wavelength-appropriate protection, and exposure controls.
-- Lithium batteries require protected charging, correct polarity, suitable enclosures, and supervision; damaged or swollen cells must not be used.
-- Glass cutting, edge preparation, soldering, and electrical work require appropriate training and supervision.
-- Any future building-grid connection, structural glazing installation, or product certification requires qualified professionals. A small DC demonstrator is not evidence of building-code compliance.
+- CQD production, solvents, nanomaterials, and waste require a risk assessment, suitable facilities, qualified supervision, personal protective equipment, and safe disposal. A food-derived starting material does not make every product safe.
+- UV sources need suitable shielding and eye and skin protection. Glass work and soldering also require training and supervision.
+- Lithium batteries need protected charging, correct polarity, suitable enclosures, and supervision. Damaged or swollen cells must not be used.
+- Any future grid connection or building installation requires qualified professionals. A small DC demonstrator is not proof of electrical or building-code compliance.
 
 ## Performance Metrics and Engineering Trade-offs
 
@@ -608,13 +560,13 @@ operator_notes:
 | Metric | Meaning and required boundary |
 |---|---|
 | **Spectral transmittance and reflectance** | Wavelength-resolved optical behaviour under stated geometry and instrument conditions. |
-| **Visible/luminous transmittance** | Photopically weighted transmitted daylight under a specified illuminant and observer; distinct from the percentage of area not covered by PV. |
-| **Haze and clarity** | Scattering and view quality, not simply how bright a sample appears in a photograph. |
+| **Visible/luminous transmittance** | Transmitted daylight weighted to match human eye sensitivity, measured under stated conditions. This is different from the percentage of area not covered by PV. |
+| **Haze and clarity** | Haze is cloudiness caused by scattered light. Clarity describes how clear the view remains. Neither can be judged from brightness alone. |
 | **Transmitted colour** | Colour shift introduced by the glazing under stated illumination. |
 | **Excitation/emission spectra** | Full corrected spectra, including peak, width, shape, and excitation dependence. |
 | **Absolute PLQY** | Emitted photons divided by absorbed photons under stated host and measurement conditions. |
-| **Edge spectral power** | Calibrated optical power and spectrum reaching a defined edge, with direct-light artefacts controlled. |
-| **`Voc`, `Isc`, I–V curve, `Pmax`, and FF** | Electrical behaviour under stated irradiance, spectrum, temperature, and wiring conditions. |
+| **Edge spectral power** | Calibrated optical power and spectrum reaching a defined edge, with unwanted direct light controlled. |
+| **`Voc`, `Isc`, I-V curve, `Pmax`, and FF** | Electrical behaviour under stated irradiance, spectrum, temperature, and wiring conditions. |
 | **Defined-load power and energy yield** | Useful output at the load over a stated interval, including electronics losses where included in the system boundary. |
 | **System efficiency** | Output divided by a defined input and area; never inferred from edge-cell efficiency alone. |
 | **Stability retention** | Post-ageing value divided by the corresponding initial value, with identical methods and uncertainty. |
@@ -658,7 +610,7 @@ All applications below are **potential future use cases**, not current AETHER ca
 |---|---|---|
 | **Building-integrated photovoltaic glazing** | Combines an architectural surface with local solar-energy harvesting. | Competitive energy yield, glazing safety, durability, wiring, installation, and certification. |
 | **Home, school, and office windows** | Could provide daylight plus a measured energy contribution and educational value. | Colour and view acceptance, cleaning, cost, frame compatibility, maintenance, and occupant safety. |
-| **Commercial façades and selected curtain walls** | Larger glazed areas and architectural integration may justify specialised designs. | Scale-dependent optical losses, non-uniform irradiance, shading, structural requirements, and bankable performance data. |
+| **Commercial façades and selected curtain walls** | Larger glazed areas and architectural integration may justify specialised designs. | Scale-dependent optical losses, non-uniform irradiance, shading, structural requirements, and trusted long-term performance data. |
 | **Skylights and atriums** | Potentially favourable illumination in appropriately designed geometries. | Heat, UV dose, water ingress, safety glazing, access, and angle-dependent output. |
 | **Low-power environmental sensors** | Local sensing could match a small intermittent energy source if the energy budget is sufficient. | Net energy after conversion/storage, load duty cycle, wireless power, battery life, and fail-safe operation. |
 | **Smart-building research platforms** | Window-level energy and environmental data could support research on distributed building systems. | Reliable measurement, cybersecurity where connected, interoperability, and demonstrated value over battery or wired sensors. |
@@ -668,28 +620,27 @@ AETHER should not be presented as suitable for all windows. Some locations will 
 
 ## Sustainability and Environmental Impact
 
-### Potential advantages to investigate
+### Possible benefits to study
 
-- **Higher-value use of suitable residues:** selected biomass or food residues could become precursors for functional optical materials.
-- **Distributed generation:** electricity produced near a load could support appropriately sized local functions.
-- **Shared building surfaces:** energy generation might be integrated into glazing already required for architectural purposes.
-- **Durability-led design:** a longer-lasting optical system could reduce replacement frequency if proven.
+- Suitable biomass or food residues might be used to make useful optical materials.
+- Electricity made near a window could support small local devices if enough energy is available.
+- Solar collection might share a surface that the building already needs.
+- A durable design could reduce replacement, but only if testing proves its lifetime.
 
-These are hypotheses to evaluate, not achieved benefits.
+These are possibilities, not benefits already achieved by AETHER.
 
-### Environmental questions that remain open
+### Questions that must be answered
 
-1. **Feedstock:** Is there a consistent supply that does not compete with a higher-value use or create harmful collection incentives?
-2. **Processing:** How much water, solvent, energy, and consumable material are required per unit of usable CQD product?
-3. **Yield and purification:** How much feedstock and chemical input becomes waste during purification and sample rejection?
-4. **Safety:** What are the hazards of the CQDs, residual chemicals, host, additives, and degradation products?
-5. **Fabrication:** What are the impacts of glass, polymers, PV cells, frames, wiring, batteries, and encapsulation?
-6. **Durability:** Does the system survive long enough to offset its additional material and processing burden?
-7. **Recyclability:** Can glass, organic hosts, PV materials, and electronics be separated safely at end of life?
-8. **Replacement:** Can the luminescent layer or electronics be repaired without replacing the entire glazing unit?
-9. **Net climate effect:** Does measured electricity generation, evaluated over the real lifetime, exceed the relevant embodied and operational burdens relative to the chosen counterfactual?
+1. **Feedstock:** Is the residue consistently available, and is this a good use for it?
+2. **Production:** How much water, solvent, energy, and other material is needed?
+3. **Yield and purification:** How much usable CQD material is produced, and how much waste is created?
+4. **Safety:** Are the CQDs, leftover chemicals, host, additives, and aged materials safe to make, use, and dispose of?
+5. **Other components:** What are the impacts of the glass, polymers, PV cells, frame, wiring, battery, and seals?
+6. **Lifetime:** Does the system last long enough to justify these added impacts?
+7. **End of life:** Can the glass, host, PV material, and electronics be separated, repaired, reused, or recycled?
+8. **Climate effect:** Does measured electricity production over the real lifetime provide a net benefit compared with a fair alternative?
 
-A future lifecycle assessment should follow a declared goal, scope, functional unit, inventory, impact assessment, and interpretation consistent with ISO 14040 principles [20]. A useful functional unit might combine **1 m² of installed glazing, a specified optical-performance level, a defined service life, and measured delivered electricity**, but the exact choice must be justified before comparison.
+A future lifecycle assessment should follow ISO 14040 principles [20]. It should state the goal, system boundary, inputs, outputs, and comparison case. A possible functional unit, meaning the basis used for comparison, could be **1 m² of installed glazing with a defined optical performance and service life, together with its measured delivered electricity**. The exact basis must be chosen before comparing products.
 
 No carbon savings, waste-diversion total, energy-payback period, cost saving, or lifecycle superiority is claimed.
 
@@ -704,7 +655,7 @@ No carbon savings, waste-diversion total, energy-payback period, cost saving, or
 - Visible-light transmittance, haze, colour, and optical clarity have not been quantified.
 - Edge optical power and whole-window solar-to-electrical efficiency are unknown.
 - The edge-PV material and geometry have not been selected through measurement.
-- Environmental stability and the 20–25-year ambition remain untested.
+- Environmental stability and the 20-25-year goal remain untested.
 - Cost, manufacturability, scalability, safety, recyclability, and lifecycle performance remain unevaluated.
 - No comprehensive novelty, patentability, or freedom-to-operate finding is claimed.
 
@@ -713,30 +664,25 @@ No carbon savings, waste-diversion total, energy-payback period, cost saving, or
 - **Conventional opaque PV:** mature and often highly effective where transparency is unnecessary; it is an essential benchmark for power, cost, durability, and lifecycle performance.
 - **Ordinary glazing plus separate PV:** may outperform an integrated solar window once complexity and replacement are included.
 - **Semi-transparent and wavelength-selective PV:** offers alternative routes to solar glazing with different transparency, colour, and efficiency trade-offs [2].
-- **Other LSC luminophores and photonic structures:** organic dyes, inorganic QDs, perovskites, rare-earth materials, wavelength-selective mirrors, and directional-emission strategies may offer advantages in specific designs [6–8].
+- **Other LSC luminophores and photonic structures:** organic dyes, inorganic QDs, perovskites, rare-earth materials, wavelength-selective mirrors, and directional-emission strategies may offer advantages in specific designs [6-8].
 - **Energy-efficiency and shading measures:** reducing cooling or lighting demand may sometimes provide greater value than generating a small amount of electricity.
 
 AETHER should continue only where evidence shows a meaningful advantage or learning value relative to these options.
 
 ### Open scientific and engineering questions
 
-1. Which waste-derived precursor can yield reproducible CQDs with useful absorption and emission?
-2. Can a purified material produce a stable deep-red spectrum near the 690 nm target in the final host?
-3. What absolute PLQY is achieved after host incorporation and curing?
-4. How much absorption–emission overlap and reabsorption occurs over realistic path lengths?
-5. Which host provides the best balance of dispersion, PLQY, refractive-index contrast, adhesion, clarity, and stability?
-6. What fraction of emitted light reaches each edge under controlled excitation?
-7. How do edge power and uniformity scale with pane length, width, thickness, and illumination position?
-8. Which PV cell provides the best measured output per cost and area under the actual edge spectrum?
-9. What are the luminous transmittance, haze, colour, and clarity penalties?
-10. How much irradiance in the useful absorption band reaches a real vertical installation across seasons?
-11. Does the system generate positive net energy after monitoring, regulation, and storage losses?
-12. How do UV, heat, humidity, dust, and cleaning affect performance over time?
-13. Can the assembly meet relevant glazing, fire, electrical, and environmental-safety requirements?
-14. Can manufacturing produce uniform large-area samples at acceptable yield?
-15. Does the complete lifecycle compare favourably with ordinary glazing and alternative energy systems?
+1. Which waste-derived precursor and purification method can produce repeatable CQDs with useful absorption and emission?
+2. Can the final host support stable emission near 690 nm, useful PLQY, good clarity, and low haze?
+3. How much reabsorption and escape loss occurs over realistic light paths?
+4. Which host and encapsulation give the best balance of emission, optical guidance, adhesion, and durability?
+5. How do edge power and uniformity change with pane size, thickness, and illumination position?
+6. Which PV cell gives the best measured output under the actual edge spectrum?
+7. What are the penalties for daylight, colour, clarity, and haze?
+8. Does the system produce net energy after measurement, regulation, and storage losses?
+9. How do UV, heat, humidity, dust, and cleaning change performance over time?
+10. Can the design be manufactured safely and consistently, and does its lifecycle compare well with normal glazing and alternative solar systems?
 
-Negative or inconclusive answers should be published with the same care as positive results; they are essential to deciding whether to redesign, narrow the application, or stop a particular approach.
+Negative or unclear answers should be published with the same care as positive results; they are essential to deciding whether to redesign, narrow the application, or stop a particular approach.
 
 ## Development Roadmap
 
@@ -744,14 +690,14 @@ No dates or performance milestones are promised. Each stage depends on the evide
 
 | Stage | Objective | Evidence required to complete it | Key risks | Current position |
 |---|---|---|---|---|
-| **1. Concept definition and literature review** | Define the system and distinguish AETHER decisions from prior art. | Referenced architecture, prior-art matrix, explicit claims register. | Overlooking existing work or overstating novelty. | **In Progress**; substantial concept documentation exists. |
-| **2. Material selection and optical characterisation** | Establish a reproducible CQD and blank-host research set. | Purification/characterisation records, spectra, PLQY, transmittance, haze, repeatability. | Weak or unstable PL, batch variability, haze, unsafe processing. | **Proposed / next major technical stage.** |
+| **1. Concept definition and literature review** | Define the system and distinguish AETHER decisions from prior art. | Referenced architecture, prior-art matrix, a clear list of claims and their evidence. | Overlooking existing work or overstating novelty. | **In Progress**; substantial concept documentation exists. |
+| **2. Material selection and optical characterisation** | Establish a repeatable CQD and blank-host research set. | Purification/characterisation records, spectra, PLQY, transmittance, haze, repeatability. | Weak or unstable PL, batch variability, haze, unsafe processing. | **Proposed / next major technical stage.** |
 | **3. Prototype refinement** | Develop the non-working presentation prototype into a documented optical demonstrator. | Known materials and dimensions, controlled CQD and blank samples, photographic and optical records. | Treating visual brightness as quantitative performance. | **In Progress**; non-working prototype built, functional refinement not established. |
 | **4. Optical-to-PV coupling** | Deliver guided luminescence to a documented edge cell. | Calibrated edge power, coupling geometry, spectral response, control comparisons. | Escape, reabsorption, poor coupling, non-uniform edge illumination. | **Proposed.** |
-| **5. Controlled electrical testing** | Demonstrate net power from the complete chain. | Full I–V curves, `Pmax`, defined-load energy, irradiance/temperature records, uncertainty. | Artefacts, background signals, insufficient signal above noise. | **Proposed.** |
+| **5. Controlled electrical testing** | Demonstrate net power from the complete chain. | Full I-V curves, `Pmax`, defined-load energy, irradiance/temperature records, uncertainty. | False signals, background signals, insufficient signal above noise. | **Proposed.** |
 | **6. Environmental stability testing** | Quantify optical and electrical ageing. | Pre/post datasets for UV, heat, humidity, and outdoor exposure. | Host or CQD degradation, seal failure, misleading acceleration factors. | **Proposed.** |
 | **7. Comparison with alternatives** | Determine whether the design offers meaningful value. | Like-for-like optical, electrical, cost, and lifecycle comparison. | Unfair boundaries or comparison against an unrealistic baseline. | **Proposed.** |
-| **8. Optimisation and scale-up assessment** | Evaluate larger geometry and manufacturing feasibility only after small-scale proof. | Scale series, uniformity/yield data, integration and safety assessment. | Increasing optical path loss, defects, cost, and regulatory barriers. | **Proposed.** |
+| **8. Optimisation and scale-up assessment** | Evaluate larger geometry and manufacturing feasibility only after small-scale proof. | Scale series, uniformity/yield data, integration and safety assessment. | Increasing optical path loss, defects, cost, and safety and approval requirements. | **Proposed.** |
 
 ## Project Journey, Outreach, and Recognition
 
@@ -770,7 +716,7 @@ The project notes record that AETHER was selected for an **open-category present
 
 The verified online article **“Muscat student explores turning windows into renewable energy generators”** by **Anirban Ray** was published by *Muscat Daily* on **26 September 2026** [14]. It documents the project's concept, targets, student-led status, and the founder's explicit statement that the CQD system had not been experimentally validated.
 
-The supplied print page in the repository is dated **27 September 2026**. The online and print dates are therefore identified separately rather than conflated.
+The supplied print page in the repository is dated **27 September 2026**. The online and print dates are therefore listed separately.
 
 ![Muscat Daily print clipping featuring Gaurish Metha and the AETHER solar-window research concept](Aether%20News.jpg)
 
@@ -807,7 +753,7 @@ Image links in this README use repository-relative paths. Spaces are URL-encoded
   <img src="Gaurish.jpg" alt="Portrait of Gaurish Metha, Founder and Project Lead of AETHER" width="180">
 </p>
 
-### Gaurish Metha — Founder and Project Lead
+### Gaurish Metha: Founder and Project Lead
 
 I am **Gaurish Metha**, a student at **Indian School Muscat** and the founder and project lead of AETHER. I originated the window-energy concept, developed the AURS and AETHER design directions, investigated the material and system architecture, created the project presentations, non-working prototype, and presentation website, and led the project's public presentation and outreach.
 
@@ -815,7 +761,7 @@ My present role is best described as **student researcher and system-level proje
 
 ### Acknowledgements
 
-- **Kaveesh Rayhan** is acknowledged as a friend and presentation partner, as reported in the *Muscat Daily* feature [14]. This description is not extended to unattributed laboratory or engineering work.
+- **Kaveesh Rayhan** is acknowledged as a friend and presentation partner, as reported in the *Muscat Daily* feature [14]. This does not assign him laboratory or engineering work that has not been documented.
 - **Indian School Muscat** and **Middle East College** are identified as educational and event contexts in the supplied records. Their mention does not imply institutional endorsement, funding, certification, or validation of AETHER.
 - The researchers and organisations cited below are acknowledged for the scientific and standards literature that informs the project's research direction. Citation does not imply that those authors or organisations endorse AETHER.
 
@@ -825,21 +771,18 @@ Constructive contributions are welcome, particularly where they improve evidence
 
 ### Useful contribution areas
 
-- **Literature and prior-art review:** suggest relevant peer-reviewed work and explain how it changes the design discussion.
-- **Scientific review:** challenge assumptions about CQDs, photoluminescence, waveguiding, PV conversion, or efficiency boundaries.
-- **Optical modelling:** model escape, reabsorption, scattering, geometry, and spectral transport with clearly stated assumptions.
-- **Experimental methodology:** improve controls, calibration, uncertainty analysis, and repeatability.
-- **Materials characterisation:** advise on suitable laboratory methods or collaborate through properly equipped and supervised facilities.
-- **Electrical engineering:** review edge-PV coupling, I–V measurement, protection, power budgets, and safe low-power electronics.
-- **Durability and lifecycle assessment:** propose defensible exposure conditions, functional units, and comparison boundaries.
-- **Documentation and reproducibility:** correct unclear terminology, add verified metadata, or improve the public evidence record.
+- **Literature and scientific review:** suggest relevant research and challenge assumptions or novelty claims.
+- **Optical and electrical engineering:** improve models, edge-PV coupling, I-V measurement, protection, and power budgets.
+- **Materials and experimental methods:** advise on CQD characterisation, controls, calibration, repeatability, and safe laboratory work.
+- **Durability and lifecycle assessment:** propose useful ageing tests, comparison boundaries, and end-of-life measures.
+- **Documentation:** correct unclear wording and improve data, metadata, references, and repeatability.
 
 ### Practical process
 
 1. Read the status and limitations sections before proposing a performance claim.
 2. Open a [GitHub issue](https://github.com/GaurishMetha-2011/AETHER-A-solar-window/issues) describing the contribution, evidence, and relevant references.
 3. For documentation changes, submit a focused pull request with sources and a clear explanation.
-4. For experimental data, include raw files where possible, units, calibration, controls, sample metadata, uncertainty, and anomalies—not only processed graphs.
+4. For experimental data, include raw files where possible, units, calibration, controls, sample metadata, uncertainty, and unusual results, not only processed graphs.
 5. Distinguish calculations, simulations, visual demonstrations, and physical measurements.
 6. Do not post confidential formulations, unpublished process parameters, personal information, or third-party material without permission.
 
@@ -854,12 +797,12 @@ The most useful near-term collaboration would support one of these goals:
 - independent review of the experimental plan;
 - access to supervised CQD synthesis and characterisation;
 - calibrated optical and PLQY measurements;
-- edge-optical and PV I–V testing; or
-- development of a safe, reproducible small-scale proof of concept.
+- edge-optical and PV I-V testing; or
+- development of a safe, repeatable small-scale proof of concept.
 
 **Public project links:**
 
-- Repository: [AETHER — A solar window](https://github.com/GaurishMetha-2011/AETHER-A-solar-window)
+- Repository: [AETHER: A solar window](https://github.com/GaurishMetha-2011/AETHER-A-solar-window)
 - Founder GitHub profile: [GaurishMetha-2011](https://github.com/GaurishMetha-2011)
 - Collaboration and technical discussion: [Repository Issues](https://github.com/GaurishMetha-2011/AETHER-A-solar-window/issues)
 
@@ -876,30 +819,32 @@ Nothing in this repository constitutes a patentability opinion, freedom-to-opera
 ## References and Further Reading
 
 1. International Energy Agency (IEA). “Buildings.” *Energy Efficiency 2025* (2025). Buildings account for around 30% of global energy demand in the cited analysis. [Publisher page](https://www.iea.org/reports/energy-efficiency-2025/buildings).
-2. C. J. Traverse, R. Pandey, M. C. Barr, and R. R. Lunt. “Emergence of highly transparent photovoltaics for distributed applications.” *Nature Energy* **2**, 849–860 (2017). [https://doi.org/10.1038/s41560-017-0016-9](https://doi.org/10.1038/s41560-017-0016-9).
+2. C. J. Traverse, R. Pandey, M. C. Barr, and R. R. Lunt. “Emergence of highly transparent photovoltaics for distributed applications.” *Nature Energy* **2**, 849-860 (2017). [DOI](https://doi.org/10.1038/s41560-017-0016-9).
 3. Oman Vision 2040 Implementation Follow-up Unit. “Vision Pillars” and “Priority: Environment and Natural Resources.” Official national-priority and programme information. [Vision pillars](https://www.oman2040.om/pillars?lang=en); [Environment and Natural Resources](https://www.oman2040.om/priority/12?lang=en).
-4. World Bank / ESMAP, with data prepared by Solargis. “Global Solar Atlas — Oman.” Solar-resource and photovoltaic-potential maps and country data. [Oman data page](https://globalsolaratlas.info/download/oman).
+4. World Bank / ESMAP, with data prepared by Solargis. “Global Solar Atlas: Oman.” Solar-resource and photovoltaic-potential maps and country data. [Oman data page](https://globalsolaratlas.info/download/oman).
 5. United Nations Department of Economic and Social Affairs. “The 17 Goals.” Sustainable Development Goals framework. [https://sdgs.un.org/goals](https://sdgs.un.org/goals).
-6. M. G. Debije and P. P. C. Verbunt. “Thirty Years of Luminescent Solar Concentrator Research: Solar Energy for the Built Environment.” *Advanced Energy Materials* **2**(1), 12–35 (2012). [https://doi.org/10.1002/aenm.201100554](https://doi.org/10.1002/aenm.201100554).
-7. F. Meinardi, F. Bruni, and S. Brovelli. “Luminescent solar concentrators for building-integrated photovoltaics.” *Nature Reviews Materials* **2**, 17072 (2017). [https://doi.org/10.1038/natrevmats.2017.72](https://doi.org/10.1038/natrevmats.2017.72).
-8. B. S. Richards and I. A. Howard. “Luminescent solar concentrators for building integrated photovoltaics: opportunities and challenges.” *Energy & Environmental Science* **16**, 3214–3239 (2023). [https://doi.org/10.1039/D3EE00331K](https://doi.org/10.1039/D3EE00331K).
+6. M. G. Debije and P. P. C. Verbunt. “Thirty Years of Luminescent Solar Concentrator Research: Solar Energy for the Built Environment.” *Advanced Energy Materials* **2**(1), 12-35 (2012). [DOI](https://doi.org/10.1002/aenm.201100554).
+7. F. Meinardi, F. Bruni, and S. Brovelli. “Luminescent solar concentrators for building-integrated photovoltaics.” *Nature Reviews Materials* **2**, 17072 (2017). [DOI](https://doi.org/10.1038/natrevmats.2017.72).
+8. B. S. Richards and I. A. Howard. “Luminescent solar concentrators for building integrated photovoltaics: opportunities and challenges.” *Energy & Environmental Science* **16**, 3214-3239 (2023). [DOI](https://doi.org/10.1039/D3EE00331K).
 9. National Institute of Standards and Technology (NIST). “CODATA Recommended Values of the Fundamental Physical Constants: 2022.” Constants used for the photon-energy calculation. [NIST CODATA reference](https://physics.nist.gov/cuu/pdf/wall_2022.pdf).
-10. H. Zhao, G. Liu, and G. Han. “High-performance laminated luminescent solar concentrators based on colloidal carbon quantum dots.” *Nanoscale Advances* **1**, 4888–4894 (2019). [https://doi.org/10.1039/C9NA00527G](https://doi.org/10.1039/C9NA00527G).
-11. G. Liu, X. Wang, G. Han, J. Yu, and H. Zhao. “Earth abundant colloidal carbon quantum dots for luminescent solar concentrators.” *Materials Advances* **1**(2), 119–138 (2020). [https://doi.org/10.1039/D0MA00181C](https://doi.org/10.1039/D0MA00181C).
-12. S. Y. Lim, W. Shen, and Z. Gao. “Carbon quantum dots and their applications.” *Chemical Society Reviews* **44**, 362–381 (2015). [https://doi.org/10.1039/C4CS00269E](https://doi.org/10.1039/C4CS00269E).
-13. J. Ren, H. Opoku, S. Tang, L. Edman, and J. Wang. “Carbon Dots: A Review with Focus on Sustainability.” *Advanced Science* **11**(35), 2405472 (2024). [https://doi.org/10.1002/advs.202405472](https://doi.org/10.1002/advs.202405472).
+10. H. Zhao, G. Liu, and G. Han. “High-performance laminated luminescent solar concentrators based on colloidal carbon quantum dots.” *Nanoscale Advances* **1**, 4888-4894 (2019). [DOI](https://doi.org/10.1039/C9NA00527G).
+11. G. Liu, X. Wang, G. Han, J. Yu, and H. Zhao. “Earth abundant colloidal carbon quantum dots for luminescent solar concentrators.” *Materials Advances* **1**(2), 119-138 (2020). [DOI](https://doi.org/10.1039/D0MA00181C).
+12. S. Y. Lim, W. Shen, and Z. Gao. “Carbon quantum dots and their applications.” *Chemical Society Reviews* **44**, 362-381 (2015). [DOI](https://doi.org/10.1039/C4CS00269E).
+13. J. Ren, H. Opoku, S. Tang, L. Edman, and J. Wang. “Carbon Dots: A Review with Focus on Sustainability.” *Advanced Science* **11**(35), 2405472 (2024). [DOI](https://doi.org/10.1002/advs.202405472).
 14. A. Ray. “Muscat student explores turning windows into renewable energy generators.” *Muscat Daily*, 26 September 2026. [Verified article](https://www.muscatdaily.com/2026/09/26/muscat-student-explores-turning-windows-into-renewable-energy-generators/).
-15. International Organization for Standardization. **ISO 9050:2026**, *Glass in building — Determination of luminous and solar characteristics of glazing* (2026). [Official record](https://www.iso.org/standard/88642.html).
-16. ASTM International. **ASTM D1003-21**, *Standard Test Method for Haze and Luminous Transmittance of Transparent Plastics* (2021). [https://doi.org/10.1520/D1003-21](https://doi.org/10.1520/D1003-21).
-17. International Electrotechnical Commission. **IEC 60904-1:2020**, *Photovoltaic devices — Part 1: Measurement of photovoltaic current-voltage characteristics* (2020). [Official record](https://webstore.iec.ch/en/publication/32004).
-18. ASTM International. **ASTM G173-23**, *Standard Tables for Reference Solar Spectral Irradiances: Direct Normal and Hemispherical on 37° Tilted Surface* (2023). [Official record](https://store.astm.org/g0173-23.html); [https://doi.org/10.1520/G0173-23](https://doi.org/10.1520/G0173-23). See also the National Renewable Energy Laboratory's [Reference Air Mass 1.5 Spectra data resource](https://www.nrel.gov/grid/solar-resource/spectra-am1.5).
-19. M. Siripurapu, F. Meinardi, S. Brovelli, and F. Carulli. “Environmental Effects on the Performance of Quantum Dot Luminescent Solar Concentrators.” *ACS Photonics* **10**(8), 2987–2993 (2023). [https://doi.org/10.1021/acsphotonics.3c00788](https://doi.org/10.1021/acsphotonics.3c00788).
-20. International Organization for Standardization. **ISO 14040:2006**, *Environmental management — Life cycle assessment — Principles and framework*, including Amendment 1:2020. [Standard record](https://www.iso.org/standard/37456.html); [Amendment record](https://www.iso.org/standard/76121.html).
+15. International Organization for Standardization. **ISO 9050:2026**, *Glass in building: Determination of luminous and solar characteristics of glazing* (2026). [Official record](https://www.iso.org/standard/88642.html).
+16. ASTM International. **ASTM D1003-21**, *Standard Test Method for Haze and Luminous Transmittance of Transparent Plastics* (2021). [DOI](https://doi.org/10.1520/D1003-21).
+17. International Electrotechnical Commission. **IEC 60904-1:2020**, *Photovoltaic devices: Part 1: Measurement of photovoltaic current-voltage characteristics* (2020). [Official record](https://webstore.iec.ch/en/publication/32004).
+18. ASTM International. **ASTM G173-23**, *Standard Tables for Reference Solar Spectral Irradiances: Direct Normal and Hemispherical on 37° Tilted Surface* (2023). [Official record](https://store.astm.org/g0173-23.html); [DOI](https://doi.org/10.1520/G0173-23). See also the National Renewable Energy Laboratory's [Reference Air Mass 1.5 Spectra data resource](https://www.nrel.gov/grid/solar-resource/spectra-am1.5).
+19. M. Siripurapu, F. Meinardi, S. Brovelli, and F. Carulli. “Environmental Effects on the Performance of Quantum Dot Luminescent Solar Concentrators.” *ACS Photonics* **10**(8), 2987-2993 (2023). [DOI](https://doi.org/10.1021/acsphotonics.3c00788).
+20. International Organization for Standardization. **ISO 14040:2006**, *Environmental management: Life cycle assessment - Principles and framework*, including Amendment 1:2020. [Standard record](https://www.iso.org/standard/37456.html); [Amendment record](https://www.iso.org/standard/76121.html).
 
 ## Final Summary
 
 AETHER investigates a focused question: **can a window retain its architectural purpose while converting a useful fraction of incident sunlight into measurable electricity?** Its proposed answer combines waste-derived CQD research, a luminescent optical layer, waveguiding, perimeter PV cells, and carefully defined electrical measurements.
 
-The project presently offers a documented concept, an evolving engineering rationale, and a non-working prototype—not a validated solar-window product. Its next meaningful milestone is a controlled demonstration of the complete optical-to-electrical pathway, accompanied by transparency, loss, uncertainty, and durability measurements. Only that evidence can determine whether AETHER should be optimised, redesigned, narrowed to a particular application, or set aside in favour of better alternatives.
+The project presently offers a documented concept, an evolving engineering rationale, and a non-working prototype, not a validated solar-window product. Its next meaningful milestone is a controlled demonstration of the complete optical-to-electrical pathway, accompanied by transparency, loss, uncertainty, and durability measurements. Only that evidence can determine whether AETHER should be optimised, redesigned, narrowed to a particular application, or set aside in favour of better alternatives.
 
 **Invisible energy → visible impact.**
+
+<small>This research paper was created with the assistance of artificial intelligence tools.</small>
